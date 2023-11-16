@@ -31,7 +31,14 @@
         }
         a {
             text-decoration: none;
-            padding: 28px;
+            display: flex;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 50px;
+            padding-right: 50px;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
         }
         body {
             display: flex;
@@ -42,12 +49,13 @@
             align-items: center;
             background: var(--white, #FFF);
             margin: 0px;
+            flex-direction: column;
         }
         a:hover{
             background-color: #FD853A;
-            color: black;
             border-radius: 50px;
-            border: solid white 1px;
+            width: auto;
+            height: auto;
         }
         .card {
             width: 30%;
@@ -58,6 +66,11 @@
         }
         h1 {
             color: white;
+        }
+        p {
+            font-size: 30px;
+            color: white;
+            text-align: justify;
         }
     </style>
 </head>
@@ -73,7 +86,7 @@
             <span> LOGO </span>
         </a>
         <a href="https://google.com">
-            <span> My Projects </span>
+            <span> Projects </span>
         </a>
         <a href="https://google.com">
             <span> Contact </span>
@@ -85,28 +98,44 @@
     <div style="padding-top: 50px;">
         <img src="img/Simple Box Solution Game Store Logo (1250 x 1250 px) (1).png" alt="" style="width: 750px;height: 750px;">
     </div>
-    <div style="height: 878px;width: 100%;background-image: url(img/photo-1596865249308-2472dc5807d7.avif);display: flex;">
+    <div style="height: 1200px;width: 100%;background-image: url(img/photo-1596865249308-2472dc5807d7.avif);display: flex;">
         <div style="margin: 30px;height: 800px;width: 100%;">
             <div style="width: 1299px;">
-                <span style="padding-left: 100px;">
+                <span >
                     <span style="font-size: 56px;">My</span>
-                    <span style="font-size: 56px;color: #FD853A;">Experience</span>
+                    <span style="font-size: 56px;color: #FD853A;">Work Experience</span>
                 </span>
             </div>
-            <div style="padding-top: 100px;">
+            <div style="padding-top: 100px;padding-left: 100px;padding-right: 100px;">
                 <div style="display: flex;justify-content: space-between;">
                     <div class="card" style="text-align: center;">
-                        <h1>Spam Detection Classification Using BERT</h1>
+                        <h1>Spam Detection Classification Using RNN With Word Embedding</h1>
                         <hr>
-
+                        <p>Decrease Monthly Fallback Rate (From 40% to 20%). I took the lead in enhancing an NLP
+                            model focused on spam detection. By implementing advanced techniques such as fine-tuning the model and incorporating additional
+                            data sources, I successfully reduced the monthly fallback rate from 40% to 20%. Rigorous testing and evaluation were conducted to
+                            ensure the effectiveness and reliability of the improved model.</p>
                     </div>
                     <div class="card" style="text-align: center;">
-                        <h1>Sentiment Classification For Customer Satisfaction Analysis</h1>
+                        <h1>Sentiment Analysis Using RNN With BERT and Topic Modeling Using BERTopic </h1>
                         <hr>
+                        <p>I developed
+                            and delivered an NLP model capable of performing topic extraction and sentiment analysis. By integrating this model into the BRIMO
+                            app, I provided valuable insights into customer preferences and sentiment. Additionally, I enhanced the existing dashboard by
+                            incorporating the extracted topics and sentiment analysis results. This allowed the BRIMO app to benefit from improved customer
+                            understanding and actionable insights.</p>
+                        
                     </div>
                     <div class="card" style="text-align: center;">
-                        <h1>Topic Modeling Using BERTopic</h1>
+                        <h1>NER Model using BERT + BiLSTM for Enhanced Entity Recognition:</h1>
                         <hr>
+                        <p>I took initiative in advancing the entity recognition
+capabilities by developing a Named Entity Recognition (NER) model that combines the powerful BERT transformer architecture with a
+BiLSTM layer. This hybrid model enabled more accurate extraction of entities from text, significantly improving the performance of our
+NLP systems. Rigorous testing and validation were performed to ensure the model's accuracy and robustness. The implementation of
+this advanced NER model has been a valuable addition to my experience, contributing to enhanced entity recognition and information
+extraction across various projects.
+                        </p>
                     </div>
                 </div>
             </div>
