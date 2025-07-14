@@ -79,13 +79,6 @@ pnpm run build
 - `pnpm run build` - Build for production
 - `pnpm run preview` - Preview production build
 
-## 📧 Contact Information
-
-- **Email**: ahmadathoillah28@gmail.com
-- **LinkedIn**: [linkedin.com/in/achmadathoillah](https://linkedin.com/in/achmadathoillah)
-- **Phone**: +62 812 9670 2202
-- **Location**: Jakarta, Indonesia
-
 ## 📄 License
 
 © 2025 Achmad Athoillah. All rights reserved.
